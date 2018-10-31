@@ -170,6 +170,10 @@ Read using the cfx_openimage tag by Jukka
 	<cfinclude template = "actprocessimage8.cfm">
 </cfif>
 
+<cfif #left(server.ColdFusion.ProductVersion, 4)# GT 2015>
+	<cfinclude template = "actprocessimage2016.cfm">
+</cfif>
+
 <!---
 *********************************************************
 *Read image using cfx_jpegresize tag by chestysoft

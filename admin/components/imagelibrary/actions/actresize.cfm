@@ -200,6 +200,10 @@ using the cfimage built into cf8
 	<cfinclude template = "actresize8.cfm">
 </cfif>
 
+<cfif #left(server.ColdFusion.ProductVersion, 4)# GT 2015>
+	<cfinclude template = "actresize2016.cfm">
+</cfif>
+
 <!---
 *********************************************************
 using cfx_jpegresize tag by chestysoft
