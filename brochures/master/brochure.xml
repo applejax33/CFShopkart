@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes" encoding="utf-8"?>
+<PageflipDataSet>
+	<Settings PageWidth="300" PageHeight="400"
+			  AutoSize="true"
+			  StartPage="1"
+			  Hardcover="false"
+			  LargeCover="true"
+			  HcoverAngle="-30" 
+			  ClickArea="64" AutoFlipArea="56"
+			  GotoPageSpeed="2" MousePursuitSpeed="5" OnReleaseSpeed="3"
+			  FlippingEnabled="true"
+			  TransparencyEnabled="true"
+			  TearDistance="80"
+			  
+			  
+			  PDFlink=""
+			  BackgroundColour="0x000000"
+			  
+			  
+			  ZoomAreaWidth="760"
+			  ZoomAreaHeight="480"
+			  ZoomFollowSpeed="5"
+			  
+			  ThumbnailsEnabled="true"
+			  ThumbnailsOnEachSide="false"			
+			  ThumbnailsOnFacingPages="true"
+			  ThumbnailMargin="0"
+			  ThumbnailPadding="20"
+			  ThumbnailBorderWidth="0"
+			  ThumbnailBorderColor="0x000000"
+			  ThumbnailBorderHoverColor="0x000000"			  
+			  
+			  MouseHandler="true"
+			  FlipBeforeLoaded="false"
+			  MinPagesBeforeFlip="3">
+			  
+			  <Sounds Enabled="false"
+			  		  Start="pf1.mp3"
+					  End="pf2.mp3"
+					  TearOff="pf3.mp3" />
+					  
+	</Settings>
+	<PageOrder>
+		<PageData PageFile="cover.jpg" LargeFile="cover.jpg" TearOff="false" />
+		<PageData PageFile="backcover.jpg" LargeFile="backcover.jpg" TearOff="false" />
+	</PageOrder>
+</PageflipDataSet>

@@ -1,0 +1,1 @@
+<cfset paymentsent = 'yes'>

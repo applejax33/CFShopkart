@@ -1,0 +1,20 @@
+How to install CF Shopkart.
+
+1.  Create a MySQL database.  Import the provided SQL schema into that database.
+
+2.  Setup a Coldfusion DNS to that database.
+
+3.  Upload all files to your website.  
+
+Note for Linux Users:  If necessary (it depends on the way your Host Provider configured your site and Coldfusion on their server) you may need to set permissions to all files/folder in CF Shopkart to '777' via FTP so that the automatic update tool can work, and so there won't be any write problems.  Certain folders definately need to have write permissions.  These are:  /affiliates/pages/, docs folders, images, photos, temp, media, and brochures.  If Coldfusion cannot write to certain files in your install, you will receive write permission errors.
+
+4. Open /config/config.cfm and set up your variables.  Enter in the CF DSN, the full url to your site, and whatever else you need to change in there.  Save, close, upload it.
+
+5.  Open /config/admin.cfm and setup your master admin and password.   By default, for security reasons, all installs now run in demo mode (demo/demo).  So you will not be able to change anything in your store until you have created your master admin username/password.  Save, close, and upload it.
+
+6.  Go to your website homepage and if all is setup correctly you should see the homepage.  Append /admin/ to the URL and login using your master admin username/password.  Create other admin/user accounts if you need to in the control panel.
+
+7.  Complete setting up your store how you wish.
+
+
+CF Shopkart is Copyright Jon Wallen, and is an open source application.  There is no charge for the source code, and no one may charge for the source code even if they make modifications to it.  A developer may charge for their time to setup and modify this application, and/or charge for hosting service associated with hosting this application.  Source may be distributed to an end user from a developer if modifications were made for the purposes of creating a backup, but no one is allowed to post the source code for download without my permission.  If you want to share CF Shopkart code with someone, please send the person a link to the website.  Thank you.

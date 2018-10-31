@@ -1,0 +1,2 @@
+Files here are files that were replaced when an update was done.  You can use these to undo an update if you customized someting and it was overwritten.
+NOTE:  If you are running a customized version of the shopping cart, then you should disable automatic updates in the control panel.
