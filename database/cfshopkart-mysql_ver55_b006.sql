@@ -1536,7 +1536,7 @@ insert  into `products`(`ItemID`,`ProductID`,`ProductName`,`BriefDescription`,`P
 
 CREATE TABLE `products_images` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `iFileName` varchar(55) DEFAULT NULL,
+  `iFileName` varchar(150) DEFAULT NULL,
   `ItemID` varchar(50) DEFAULT NULL,
   `iHeight` int(10) DEFAULT NULL,
   `iWidth` int(10) DEFAULT NULL,
